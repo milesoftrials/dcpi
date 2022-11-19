@@ -73,7 +73,7 @@ contract CPIPrediction is ChainlinkClient, ConfirmedOwner{
 
 
 
-    function thisMonthsCPI() public payable{
+    function generatedcpi() public payable{
         // if (msg.sender == __owner){
         int256 month;
         uint year;
